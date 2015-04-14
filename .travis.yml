@@ -1,6 +1,11 @@
 node_js:
-- "iojs"
+- iojs
 language: node_js
 sudo: false
-script: "npm run test-ci"
-after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
+script: npm run test-ci
+after_script: npm install coveralls@2 && cat ./coverage/lcov.info | coveralls
+env:
+  global:
+  - secure: nthZ7h1OgwityijIKc9IexmFV2ZqO0rjZH97npKYtO1VGs7uJ8SC6qSlAghHth4rWcNMrPkwwI3T9LZF1y/FZCdTTg4hWTvPZTP+pzof7/OBSiwWtNVSb7kZVZ3GZzVrHgP21L+MqG5JJT855917wal88NyMH/MdqxLJ/EuC4Jc=
+  - secure: QyGxlA3e4fz4K8Wx3rclr4N+asg8dvWTFb23kzrARCvWsxMpWizLRD7wqgjfotE7kwRUHgUn243fjAkHhNbgJz9YUTpnVPGuCw3awEBMcQ9vgxrKGhJL7/TrgScUdBcur5cYIP0si9E7WqUTSxReLNepPsdpFQpZ3QfRYef4DFI=
+  - secure: LFqgbpapNO+5lJK5znrVWVdpg0d5D/A9EkXV+plIxUfxNsnhixpccOKXt4sbhIGdqC95RTpyfTg4/Q9xphoFtDvYd15fv/MSuN6Qx9wRVAQ65Oby10qMPJn30ehBOl0ZNCEHzP/jPIgil+hONIzMJ9LaiKnEd7mTVmjF0rwkC+M=
