@@ -1,7 +1,7 @@
 {
   "name": "s3-buffer-stream",
   "description": "A stream that buffers to the filesystem and flushes to S3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)",
   "license": "MIT",
   "repository": "collectors/s3-buffer-stream",
