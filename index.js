@@ -104,5 +104,5 @@ Stream.prototype.send = function (key) {
 }
 
 function onerror(err) {
-  console.error(err.stack)
+  if (err) console.error(err.stack || err)
 }
