@@ -52,11 +52,11 @@ describe('when the stream is null', function () {
     return stream.send(key)
   })
 
-  it('should have saved the file', function (done) {
+  it('should not have saved the file', function (done) {
     stream.client.getFile(key, function (err, res) {
       if (err) return done(err)
 
-      assert.equal(res.statusCode, 403)
+      assert(res.statusCode === 403 || res.statusCode === 404)
       done()
     })
   })
