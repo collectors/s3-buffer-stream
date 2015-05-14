@@ -7,7 +7,6 @@
 [![Dependency Status][david-image]][david-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
-[![Gittip][gittip-image]][gittip-url]
 
 [npm-image]: https://img.shields.io/npm/v/s3-buffer-stream.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/s3-buffer-stream
@@ -23,5 +22,3 @@
 [license-url]: LICENSE
 [downloads-image]: http://img.shields.io/npm/dm/s3-buffer-stream.svg?style=flat-square
 [downloads-url]: https://npmjs.org/package/s3-buffer-stream
-[gittip-image]: https://img.shields.io/gratipay/jonathanong.svg?style=flat-square
-[gittip-url]: https://gratipay.com/jonathanong/
