@@ -10,7 +10,7 @@
     "temp-path": "^1.0.0"
   },
   "devDependencies": {
-    "istanbul": "0",
+    "istanbul": "0.4.2",
     "mocha": "2",
     "standardberry": "*"
   },
